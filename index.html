@@ -49,7 +49,7 @@ function convertOutput(){
 }
 
 function StartTimer(){
-	time += 1;
+	time -= 1;
 	convertOutput();
 	document.getElementById("time").innerHTML = output;
 	self.setTimeout("StartTimer()", 1000);
